@@ -1,0 +1,31 @@
+{
+  "name": "qcd-theme",
+  "displayName": "QCD Theme",
+  "description": "A dark VS Code theme.",
+  "publisher": "fablackner",
+  "version": "1.0.0",
+  "icon": "images/qcd-theme-logo.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fablackner/vscode-qcd-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "files": [
+    "themes",
+    "images",
+    "LICENSE"
+  ],
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "QCD Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qcd.json"
+      }
+    ]
+  }
+}
