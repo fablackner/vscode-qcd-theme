@@ -16,7 +16,8 @@
   "files": [
     "themes",
     "images",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "categories": ["Themes"],
   "contributes": {
