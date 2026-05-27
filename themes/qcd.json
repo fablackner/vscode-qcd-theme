@@ -99,15 +99,32 @@
 		"editorIndentGuide.background1": "#211421",
 		"editorIndentGuide.activeBackground1": "#767771",
 		"editorRuler.foreground": "#c3c0b5", // Editor Ruler.
-		"editorOverviewRuler.border": "#000000",
+		"editorOverviewRuler.border": "#00000000",
 		"editorCodeLens.foreground": "#c3c0b5",
 		"editorBracketMatch.background": "#141014",
 		"editorBracketMatch.border": "#000000",
 
 		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
+		"editorOverviewRuler.background": "#141014",
+		"editorOverviewRuler.findMatchForeground": "#ff7b00a1",
+		"editorOverviewRuler.rangeHighlightForeground": "#211925a1",
+		"editorOverviewRuler.selectionHighlightForeground": "#494949a1",
+		"editorOverviewRuler.wordHighlightForeground": "#c3c0b526",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#c3c0b526",
+		"editorOverviewRuler.wordHighlightTextForeground": "#c3c0b526",
+		"editorOverviewRuler.modifiedForeground": "#fd935380",
+		"editorOverviewRuler.addedForeground": "#7bd88f80",
+		"editorOverviewRuler.deletedForeground": "#fc618d80",
+		"editorOverviewRuler.errorForeground": "#fc618d80",
+		"editorOverviewRuler.warningForeground": "#fd935380",
+		"editorOverviewRuler.infoForeground": "#5ad4e680",
+		"editorOverviewRuler.bracketMatchForeground": "#14101480",
+		"editorOverviewRuler.inlineChatInserted": "#7bd88f80",
+		"editorOverviewRuler.inlineChatRemoved": "#fc618d80",
+		"editorOverviewRuler.commentDraftForeground": "#fce56680",
 		"editorOverviewRuler.commonContentForeground": "#FFC60055",
-		"editorOverviewRuler.currentContentForeground": "#211421",
-		"editorOverviewRuler.incomingContentForeground": "#211421",
+		"editorOverviewRuler.currentContentForeground": "#7bd88f80",
+		"editorOverviewRuler.incomingContentForeground": "#fc618d80",
 
 		// Errors and warnings:
 		// "editorError.border": "#00000000",
@@ -123,10 +140,14 @@
 
 		// Diff Editor.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
-		"diffEditor.insertedTextBackground": "#141014",
-		"diffEditor.insertedTextBorder": "#00FF009A",
-		"diffEditor.removedTextBackground": "#141014",
-		"diffEditor.removedTextBorder": "#FF000D81",
+		"diffEditor.insertedTextBackground": "#7bd88f33",
+		"diffEditor.insertedLineBackground": "#7bd88f1a",
+		"diffEditor.insertedTextBorder": "#00FF0000",
+		"diffEditor.removedTextBackground": "#fc618d33",
+		"diffEditor.removedLineBackground": "#fc618d1a",
+		"diffEditor.removedTextBorder": "#FF000D00",
+		"diffEditorOverview.insertedForeground": "#7bd88f80",
+		"diffEditorOverview.removedForeground": "#fc618d80",
 
 		// Editor Groups & Tabs.
 		// "editorGroup.background": "#EC3A37F5", // Deprecated in v1.25
@@ -273,9 +294,9 @@
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
 		"scrollbar.shadow": "#141014",
-		"scrollbarSlider.background": "#003f2f",
-		"scrollbarSlider.hoverBackground": "#003e00",
-		"scrollbarSlider.activeBackground": "#004e00",
+		"scrollbarSlider.background": "#79797966",
+		"scrollbarSlider.hoverBackground": "#a6a6a666",
+		"scrollbarSlider.activeBackground": "#cecece66",
 
 		// Status Bar Colors.
 		// The Status Bar is shown in the bottom of the workbench.
